@@ -44,10 +44,26 @@ header.style.fontFamily = "Comic"
 
 document.body.appendChild(header) //Se inserta en la página por medio del "document", en este caso en el "body"
 
-
 const subHeader = document.createElement("h2")
 subHeader.innerHTML = "There's not free lunch"
 
 subHeader.setAttribute("class", "sub-header")
 
 document.body.appendChild(subHeader)
+
+// Events
+
+const box = document.getElementById("box")
+
+const enterColor = function () {
+    box.style.backgroundColor = "#8e44ad"
+    box.innerHTML = "AHH GO AWAY"
+}
+
+const leaveColor = function () {
+    box.style.backgroundColor = "#1abc9c"
+    box.innerHTML = "Hover over me!"
+}
+
+
+
