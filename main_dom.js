@@ -65,5 +65,8 @@ const leaveColor = function () {
     box.innerHTML = "Hover over me!"
 }
 
+const test = document.getElementsByClassName("arrow")
+
+console.log(test)
 
 
